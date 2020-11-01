@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ex02_7</string>
+    <string name="strTextBtn1">글자 나타내기</string>
+    <string name="strTextBtn2">홈페이지 열기</string>
+    <string name="strRadioBtn1">오레오</string>
+    <string name="strRadioBtn2">파이</string>
+    <string name="strRadioBtn3">Q10</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/BaseLayout">
+    <!-- 대화상자 클릭 시 나오는 그림이 가운데로 오게 하기 위해 gravity속성을 center로 주었습니다.
+         LinearLayout안에 ImageView를 넣은 이유는 BaseLayout의 절반에 해당하는 공간에 가운데 정렬을 하기 위해서 weight속성을 1씩 주어서 LinearLayout안에 넣었습니다.-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center">
+        <!-- ImageView를 생성 하였고, 이 공간 안에는 대화상자에 있는 Dog, Cat, Rabbit의 그림이 나타날 것입니다.(JAVA코드를 통하여) -->
+        <ImageView
+            android:id="@+id/ImageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <!-- 앞서 말한 BaseLayout의 절반에 해당하는 부분을 할당 해 주었습니다. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

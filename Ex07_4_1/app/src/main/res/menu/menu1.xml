@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 각각 강아지, 고양이, 토끼를 나타내는 메뉴상자 입니다. -->
+    <item
+        android:id="@+id/Dog"
+        android:title="강아지"/>
+    <item
+        android:id="@+id/Cat"
+        android:title="고양이"/>
+    <item
+        android:id="@+id/Rabbit"
+        android:title="토끼"/>
+</menu>

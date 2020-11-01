@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemCycle"
+        android:title="회전">
+    </item>
+
+    <item
+        android:id="@+id/itemInc"
+        android:title="확대">
+    </item>
+
+    <item
+        android:id="@+id/itemDec"
+        android:title="축소">
+    </item>
+
+    <item
+        android:id="@+id/IncGradient"
+        android:title="기울기 증가">
+    </item>
+
+    <item
+        android:id="@+id/DecGradient"
+        android:title="기울기 감소">
+    </item>
+</menu>
